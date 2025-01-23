@@ -34,7 +34,7 @@ const Projects = () => {
     <div className="px-20 py-4 flex flex-col items-center text-white pt-20">
       <div className="lg:w-9/10 max-w-[1500px]">
         <h1 className="text-5xl font-bold text-purple-400 mb-16 text-center">
-          My Projects
+          Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
