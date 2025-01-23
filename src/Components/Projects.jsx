@@ -11,6 +11,22 @@ const projects = [
     image: MealMuse,
     github: "https://github.com/sneha9730/Meal_Muse.git",
   },
+  {
+    id: 2,
+    title: "MealMuse",
+    description:
+      "A MERN stack project that curates personalized meal options based on individual preferences and requirements.",
+    image: MealMuse,
+    github: "https://github.com/sneha9730/Meal_Muse.git",
+  },
+  {
+    id: 3,
+    title: "MealMuse",
+    description:
+      "A MERN stack project that curates personalized meal options based on individual preferences and requirements.",
+    image: MealMuse,
+    github: "https://github.com/sneha9730/Meal_Muse.git",
+  },
 ];
 
 const Projects = () => {
@@ -18,7 +34,7 @@ const Projects = () => {
     <div className="px-20 py-4 flex flex-col items-center text-white pt-20">
       <div className="lg:w-9/10 max-w-[1500px]">
         <h1 className="text-5xl font-bold text-purple-400 mb-16 text-center">
-          Projects
+          My Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
@@ -43,7 +59,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full aspect-w-16 aspect-h-9 object-cover rounded-lg mb-4"
+                className="w-auto aspect-w-16 aspect-h-9 object-cover rounded-lg mb-4"
               />
               <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
               <p className="text-gray-300 mb-4">{project.description}</p>

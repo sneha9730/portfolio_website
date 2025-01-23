@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import SkillSet from "./Components/Skills";
+import Education from "./Components/Education";
 import RecentProjects from "./Components/Projects";
 import Experiences from "./Components/Experiences";
 import Footer from "./Components/Footer";
@@ -20,6 +21,9 @@ function App() {
         </div>
         <div id="skills">
           <SkillSet />
+        </div>
+        <div id="education">
+          <Education />
         </div>
         <div id="projects">
           <RecentProjects />

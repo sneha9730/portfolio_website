@@ -30,6 +30,12 @@ const Navbar = () => {
               Skills
             </button>
             <button
+              onClick={() => handleScroll("education")}
+              className="text-gray-300 hover:text-white transition duration-300 text-lg cursor-pointer"
+            >
+              Education
+            </button>
+            <button
               onClick={() => handleScroll("projects")}
               className="text-gray-300 hover:text-white transition duration-300 text-lg cursor-pointer"
             >
