@@ -1,5 +1,5 @@
 import React from "react";
-import Webdev from "../assests/Images/Webdev.png";
+import Webdev from "../assests/Images/test3.png";
 
 const About = () => {
   return (
@@ -18,22 +18,22 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 md:grid-cols-1 items-center">
-            <div className="max-h-[110px]  max-w-[300px] border-2 border-purple-400 rounded-xl p-4 flex flex-col items-center text-center">
+            <div className="max-h-[110px] max-w-[300px] bg-purple-500/20 backdrop-blur-md border border-purple-500 rounded-xl p-4 flex flex-col items-center text-center">
               <img src={Webdev} alt="Web Development" className="w-16 h-16 rounded-[40px] transform -translate-y-[50px]"/>
               <p className="text-xl text-white font-bold transform -translate-y-[45px]">Web<br/>Development</p>
             </div>
 
-            <div className="max-h-[110px]  max-w-[300px] border-2 border-purple-400 rounded-xl p-4 flex flex-col items-center text-center">
+            <div className="max-h-[110px]  max-w-[300px] bg-purple-500/20 backdrop-blur-md border border-purple-500 rounded-xl p-4 flex flex-col items-center text-center">
               <img src={Webdev} alt="Artificial Intelligence" className="w-16 h-16 rounded-[40px] transform -translate-y-[50px]"/>
               <p className="text-xl text-white font-bold transform -translate-y-[45px]">Artificial<br/>Intelligence</p>
             </div>
 
-            <div className="max-h-[110px] max-w-[300px] border-2 border-purple-400 rounded-xl p-4 flex flex-col items-center text-center">
+            <div className="max-h-[110px] max-w-[300px] bg-purple-500/20 backdrop-blur-md border border-purple-500 rounded-xl p-4 flex flex-col items-center text-center">
               <img src={Webdev} alt="Data Analytics" className="w-16 h-16 rounded-[40px] transform -translate-y-[50px]"/>
               <p className="text-xl text-white font-bold transform -translate-y-[45px]">Data<br/>Analytics</p>
             </div>
 
-            <div className="max-h-[110px] max-w-[300px] border-2 border-purple-400 rounded-xl p-4 flex flex-col items-center text-center">
+            <div className="max-h-[110px] max-w-[300px] bg-purple-500/20 backdrop-blur-md border border-purple-500 rounded-xl p-4 flex flex-col items-center text-center">
               <img src={Webdev} alt="Web Development" className="w-16 h-16 rounded-[40px] transform -translate-y-[50px]"/>
               <p className="text-xl text-white font-bold transform -translate-y-[45px]">Web<br/>Development</p>
             </div>

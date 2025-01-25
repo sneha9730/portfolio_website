@@ -45,11 +45,9 @@ const Experiences = () => {
           {experiences.map((experience) => (
             <div
               key={experience.id}
-              className="bg-gray-800 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
+              className="bg-purple-500/20 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
               style={{
-                background: "rgba(255, 255, 255, 0.1)",
                 backdropFilter: "blur(10px)",
-                border: "0px solid rgba(255, 255, 255, 0.2)",
                 maxWidth: "550px",
               }}
             >

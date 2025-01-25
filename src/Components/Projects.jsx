@@ -31,7 +31,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="px-20 py-4 flex flex-col items-center text-white pt-20">
+    <div className="px-12 py-4 flex flex-col items-center text-white pt-20 lg:px-20">
       <div className="lg:w-9/10 max-w-[1500px]">
         <h1 className="text-5xl font-bold text-purple-400 mb-16 text-center">
           Projects
@@ -40,11 +40,9 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="relative bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+              className="bg-purple-500/20 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 hover:scale-105"
               style={{
-                background: "rgba(255, 255, 255, 0.1)",
                 backdropFilter: "blur(10px)",
-                border: "0px solid rgba(255, 255, 255, 0.2)",
                 maxWidth: "550px",
               }}
             >
@@ -52,7 +50,7 @@ const Projects = () => {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute top-8 right-8 flex items-center justify-center w-10 h-10 bg-black rounded-full hover:bg-purple-500 transition-colors sm:w-8 sm:h-8"
+                className="absolute top-8 right-8 flex items-center justify-center w-10 h-10 bg-purple-900 rounded-full hover:bg-purple-500 transition-colors sm:w-8 sm:h-8"
               >
                 <FaGithub className="text-2xl text-white sm:text-lg" />
               </a>
@@ -61,7 +59,7 @@ const Projects = () => {
                 alt={project.title}
                 className="w-auto aspect-w-16 aspect-h-9 object-cover rounded-lg mb-4"
               />
-              <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
+              <h2 className="text-2xl text-purple-300 font-semibold mb-2">{project.title}</h2>
               <p className="text-gray-300 mb-4">{project.description}</p>
             </div>
           ))}
